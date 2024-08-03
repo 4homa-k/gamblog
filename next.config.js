@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: process.env.GITHUB_ACTIONS ? "/tech-blog" : "",
+  basePath: process.env.GITHUB_ACTIONS ? "/gamblog" : "",
   trailingSlash: true,
 };
 
